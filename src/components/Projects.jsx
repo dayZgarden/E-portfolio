@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import dayZtrivia from "../assets/img/dayZtrivia.jpg";
+import dayZtrivia from "../assets/img/dayZtrivia.png";
 import dayzTracker from "../assets/img/dayZtracker.jpg";
-import dayZgamer from "../assets/img/dayZgamer.jpg";
+import dayZgamer from "../assets/img/dayZgamer.png";
 import googleClone from "../assets/img/google-clone.jpg";
 import twitterClone from "../assets/img/twitter-clone.jpg";
 import huluClone from "../assets/img/hulu-clone.jpg";
