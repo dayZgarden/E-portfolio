@@ -7,8 +7,8 @@ import googleClone from "../assets/img/google-clone.png";
 import twitterClone from "../assets/img/twitter-clone.png";
 import huluClone from "../assets/img/hulu-clone.png";
 import Library from "../assets/img/Library.png";
-import ClientEport1 from "../assets/img/ClientEport1.png";
-import ClientEport2 from "../assets/img/ClientEport2.png";
+import ClientEport1 from "../assets/img/clientEport1.png";
+import ClientEport2 from "../assets/img/clientEport2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
