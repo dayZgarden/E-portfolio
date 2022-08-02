@@ -1,14 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import dayZtrivia from "../assets/img/dayZtrivia.png";
-import dayzTracker from "../assets/img/dayZtracker.jpg";
+import dayzTracker from "../assets/img/dayZtracker.png";
 import dayZgamer from "../assets/img/dayZgamer.png";
-import googleClone from "../assets/img/google-clone.jpg";
-import twitterClone from "../assets/img/twitter-clone.jpg";
-import huluClone from "../assets/img/hulu-clone.jpg";
-import Library from "../assets/img/Library.jpg";
-import ClientEport1 from "../assets/img/ClientEport1.jpg";
-import ClientEport2 from "../assets/img/ClientEport2.jpg";
+import googleClone from "../assets/img/google-clone.png";
+import twitterClone from "../assets/img/twitter-clone.png";
+import huluClone from "../assets/img/hulu-clone.png";
+import Library from "../assets/img/Library.png";
+import ClientEport1 from "../assets/img/ClientEport1.png";
+import ClientEport2 from "../assets/img/ClientEport2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
