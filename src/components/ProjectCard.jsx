@@ -13,10 +13,10 @@ export const ProjectCard = ({ title, description, imgUrl, githubUrl, demoUrl }) 
           <span>{description}</span>
           <div className="proj__links">
             <a href={githubUrl} target="_blank" className="proj__link">
-              <FontAwesomeIcon className="proj__icon" icon={faLink} />
+              <FontAwesomeIcon className="proj__icon" icon={faCat} />
             </a>
             <a href={demoUrl} target="_blank" className="proj__link">
-              <FontAwesomeIcon className="proj__icon" icon={faCat} />
+              <FontAwesomeIcon className="proj__icon" icon={faLink} />
             </a>
           </div>
         </div>
