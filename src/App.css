@@ -22,10 +22,6 @@
   box-sizing: border-box;
 }
 
-.nav__image--third{
-  filter: invert(1);
-}
-
 .logo{
   filter: invert(1);
   max-height: 80px;
@@ -634,4 +630,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+.proj__icon{
+  color: white;
+  font-size: 24px;
+}
+
+.proj__link{
+  margin: 4px;
+}
+
+.proj__links{
+  margin-top: 8px;
 }

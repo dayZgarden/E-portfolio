@@ -12,58 +12,76 @@ import ClientEport2 from "../assets/img/clientEport2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+export const  Projects = () => {
 
-  const projects = [
+  const  projects = [
     {
       title: "dayZtrivia",
       description: "Fullstack trivia game built with React, Node.js, TailwindCSS, and Firebase + Firestore backend services and database.",
       imgUrl: dayZtrivia,
+      githubUrl: "https://github.com/dayZgarden/dayZtrivia",
+      demoUrl: "https://day-ztrivia.vercel.app/",
     },
     {
       title: "dayZgamer",
       description: "Fully responsive Videogame Catalog application utilizing the RAWG API. Developed with React, Node.js, and TailwindCSS.",
       imgUrl: dayZgamer,
+      githubUrl: "https://github.com/dayZgarden/dayZgamer",
+      demoUrl: "https://day-zgamer.vercel.app/",
     },
     {
       title: "dayZtracker",
       description: "Robust nutrition tracker application using the Nutrionix API. Developed with React, Node.js, and CSS3 + HTML5 best practices.",
       imgUrl: dayzTracker,
+      githubUrl: "https://github.com/dayZgarden/dayZtracker_React",
+      demoUrl: "https://day-ztracker-react.vercel.app/",
     },
     {
       title: "Library",
       description: "E-Commerce Bookstore developed with React, Node.js, and CSS3 + HTML5 best practises.",
       imgUrl: Library,
+      githubUrl: "https://github.com/dayZgarden/React-Bookstore",
+      demoUrl: "https://react-bookstore-zeta.vercel.app/",
     },
     {
       title: "Client E-Portfolio",
       description: "Designed and Developed a responsive e-portfolio for a client using React, Node.js, and CSS3 [BEM] + HTML5 best practices.",
       imgUrl: ClientEport1,
+      githubUrl: "https://github.com/dayZgarden/ClientEport",
+      demoUrl: "https://client-eport.vercel.app/",
     },
     {
       title: "Client E-Portfolio",
       description: "Designed and Developed a responsive e-portfolio for a client using HTML5, CSS3 [BEM], and JavaScript best practices.",
       imgUrl: ClientEport2,
+      githubUrl: "https://github.com/dayZgarden/clientPortfolio",
+      demoUrl: "https://client-portfolio-eight.vercel.app/",
     },
     {
       title: "Google Clone",
       description: "Clone of Google's search engine using React, Node.js, and CSS3 + HTML5 best practices.",
       imgUrl: googleClone,
+      githubUrl: "https://github.com/dayZgarden/Google-clone",
+      demoUrl: "https://day-z-search.vercel.app/",
     },
     {
       title: "Hulu Clone",
       description: "Clone of Hulu's video streaming service using Next.js, Node.js, and TailwindCSS best practices.",
       imgUrl: huluClone,
+      githubUrl: "https://github.com/dayZgarden/hulu-clone",
+      demoUrl: "https://hulu-cloned-mu.vercel.app/",
     },
     {
       title: "Twitter Clone",
       description: "Twitter Clone developed with Twitter Authentication and Sanity using React, Node.js, and CSS3 + HTML5 best practices.",
       imgUrl: twitterClone,
+      githubUrl: "https://github.com/dayZgarden/Twitter-clone",
+      demoUrl: "https://twitter-clone-steel-one.vercel.app/",
     },
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
