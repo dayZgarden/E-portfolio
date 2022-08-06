@@ -89,7 +89,7 @@ export const  Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p> <b> <i>Never lacking creativity & Always thinking of the user</i> </b>  <br /> Take a look at the projects that I have designed & developed with the best practices of HTML5, CSS3 [ BEM ], JavaScript, and React best practices.</p>
+                <p> <b> <i>Never lacking creativity & Always thinking of the user</i> </b>  <br /> Take a look at the projects that I have designed & developed with the best practices of HTML5, CSS3 [ BEM ], JavaScript, and React.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
