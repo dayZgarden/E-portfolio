@@ -16,21 +16,21 @@ export const  Projects = () => {
 
   const  projects = [
     {
-      title: "dayZtrivia",
+      title: "Perplexed",
       description: "Fullstack trivia game built with React, Node.js, TailwindCSS, and Firebase + Firestore backend services and database.",
       imgUrl: dayZtrivia,
       githubUrl: "https://github.com/dayZgarden/dayZtrivia",
       demoUrl: "https://day-ztrivia.vercel.app/",
     },
     {
-      title: "dayZgamer",
+      title: "Player One",
       description: "Fully responsive Videogame Catalog application utilizing the RAWG API. Developed with React, Node.js, and TailwindCSS.",
       imgUrl: dayZgamer,
       githubUrl: "https://github.com/dayZgarden/dayZgamer",
       demoUrl: "https://day-zgamer.vercel.app/",
     },
     {
-      title: "dayZtracker",
+      title: "Armor Up",
       description: "Robust nutrition tracker application using the Nutrionix API. Developed with React, Node.js, and CSS3 + HTML5 best practices.",
       imgUrl: dayzTracker,
       githubUrl: "https://github.com/dayZgarden/dayZtracker_React",
