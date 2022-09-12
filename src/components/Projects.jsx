@@ -1,16 +1,16 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import dayZtrivia from "../assets/img/perplexed.jpg";
-import dayzTracker from "../assets/img/nutrify.jpg";
-import dayZgamer from "../assets/img/Playerone.jpg";
-import tictactoe from "../assets/img/tictactoe.jpg";
-import googleClone from "../assets/img/google-clone.jpg";
+import dayZtrivia from "../assets/img/perplexed.png";
+import dayzTracker from "../assets/img/nutrify.png";
+import dayZgamer from "../assets/img/Playerone.png";
+import tictactoe from "../assets/img/tictactoe.png";
+import googleClone from "../assets/img/google-clone.png";
 import twitterClone from "../assets/img/twitter-clone.png";
-import huluClone from "../assets/img/hulu-clone.jpg";
-import Library from "../assets/img/Library.jpg";
-import ClientEport from "../assets/img/clientEport.jpg";
-import ClientEport1 from "../assets/img/clientEport1.jpg";
-import ClientEport2 from "../assets/img/clientEport2.jpg";
+import huluClone from "../assets/img/hulu-clone.png";
+import Library from "../assets/img/Library.png";
+import ClientEport from "../assets/img/clientEport.png";
+import ClientEport1 from "../assets/img/clientEport1.png";
+import ClientEport2 from "../assets/img/clientEport2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
