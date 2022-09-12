@@ -423,15 +423,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 5px;
   overflow: hidden;
   margin-bottom: 24px;
+  min-height: 350px;
 }
 
 .proj-imgbx img {
-  height: 300px;
+  min-height: 350px;
+  max-height: 350px;
   object-fit: cover;
-  object-position: center;
+  object-position: left;
   }
 
 .proj-imgbx::before {

@@ -17,6 +17,9 @@ import c from "../assets/img/c.png"
 import python from "../assets/img/python.png"
 import javascript from "../assets/img/javascript.png"
 import firebase from "../assets/img/firebase.png"
+import threejs from "../assets/img/threejs.png"
+import SQL from "../assets/img/SQL.png"
+import graphql from "../assets/img/graphql.png"
 
 export const Skills = () => {
   const responsive = {
@@ -47,6 +50,18 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>I'm an ambitious software engineer proficient in desiging web applications with robust logic using the technologies listed below. These technologies consist of both frontend and backend.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                             <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>React.js</h5>
+                            </div>
+                             <div className="item">
+                                <img src={graphql} alt="Image" />
+                                <h5>GraphQL</h5>
+                            </div>
+                             <div className="item">
+                                <img src={SQL} alt="Image" />
+                                <h5>SQL</h5>
+                            </div>
                             <div className="item">
                                 <img src={html} alt="Image" />
                                 <h5>HTML5</h5>
@@ -60,16 +75,20 @@ export const Skills = () => {
                                 <h5>CSS3</h5>
                             </div>
                             <div className="item">
-                                <img src={react} alt="Image" />
-                                <h5>React</h5>
-                            </div>
-                            <div className="item">
                                 <img src={firebase} alt="Image" />
                                 <h5>Firebase</h5>
                             </div>
                             <div className="item">
                                 <img src={typescript} alt="Image" />
                                 <h5>TypeScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={threejs} alt="Image" />
+                                <h5>Three.js</h5>
+                            </div>
+                            <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>React-Native</h5>
                             </div>
                             <div className="item">
                                 <img src={python} alt="Image" />

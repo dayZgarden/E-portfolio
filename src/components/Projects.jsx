@@ -1,14 +1,16 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import dayZtrivia from "../assets/img/dayZtrivia.png";
-import dayzTracker from "../assets/img/dayZtracker.png";
-import dayZgamer from "../assets/img/dayZgamer.png";
-import googleClone from "../assets/img/google-clone.png";
+import dayZtrivia from "../assets/img/perplexed.jpg";
+import dayzTracker from "../assets/img/nutrify.jpg";
+import dayZgamer from "../assets/img/Playerone.jpg";
+import tictactoe from "../assets/img/tictactoe.jpg";
+import googleClone from "../assets/img/google-clone.jpg";
 import twitterClone from "../assets/img/twitter-clone.png";
-import huluClone from "../assets/img/hulu-clone.png";
-import Library from "../assets/img/Library.png";
-import ClientEport1 from "../assets/img/clientEport1.png";
-import ClientEport2 from "../assets/img/clientEport2.png";
+import huluClone from "../assets/img/hulu-clone.jpg";
+import Library from "../assets/img/Library.jpg";
+import ClientEport from "../assets/img/clientEport.jpg";
+import ClientEport1 from "../assets/img/clientEport1.jpg";
+import ClientEport2 from "../assets/img/clientEport2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
@@ -30,7 +32,7 @@ export const  Projects = () => {
       demoUrl: "https://day-zgamer.vercel.app/",
     },
     {
-      title: "Armor Up",
+      title: "Nutrify",
       description: "Robust nutrition tracker application using the Nutrionix API. Developed with React, Node.js, and CSS3 + HTML5 best practices.",
       imgUrl: dayzTracker,
       githubUrl: "https://github.com/dayZgarden/dayZtracker_React",
@@ -42,6 +44,20 @@ export const  Projects = () => {
       imgUrl: Library,
       githubUrl: "https://github.com/dayZgarden/React-Bookstore",
       demoUrl: "https://react-bookstore-zeta.vercel.app/",
+    },
+    {
+      title: "Tic-Tac-Toe",
+      description: "Tic-Tac-Toe game developed with Next.js, TypeScript, and TailwindCSS best practises using game logic and events to operate.",
+      imgUrl: tictactoe,
+      githubUrl: "https://github.com/dayZgarden/ticTacToe",
+      demoUrl: "https://tictactoe-swart.vercel.app/",
+    },
+    {
+      title: "Client E-Portfolio",
+      description: "Designed and Developed a responsive e-portfolio for a client using React, Node.js, and CSS3 [BEM] + HTML5 best practices.",
+      imgUrl: ClientEport,
+      githubUrl: "https://github.com/dayZgarden/firstThreeJs",
+      demoUrl: "https://first-three-js.vercel.app/",
     },
     {
       title: "Client E-Portfolio",
@@ -106,7 +122,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.slice(0,3).map((project, index) => {
+                          projects.slice(0,5).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -120,7 +136,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="second">
                     <Row>
                         {
-                          projects.slice(3,6).map((project, index) => {
+                          projects.slice(5,8).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -134,7 +150,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
-                          projects.slice(6,9).map((project, index) => {
+                          projects.slice(8,11).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
