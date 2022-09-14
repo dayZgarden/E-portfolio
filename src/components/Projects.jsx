@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import dayzTracker from "../assets/img/nutrify.png";
-import dayZtrivia from "../assets/img/perplexed.png";
+import trivia from "../assets/img/pleasework.jpg"
 import dayZgamer from "../assets/img/Playerone.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import googleClone from "../assets/img/google-clone.png";
@@ -20,7 +20,7 @@ export const  Projects = () => {
     {
       title: "Perplexed",
       description: "Fullstack trivia game built with React, Node.js, TailwindCSS, and Firebase + Firestore backend services and database.",
-      imgUrl: dayZtrivia,
+      imgUrl: trivia,
       githubUrl: "https://github.com/dayZgarden/dayZtrivia",
       demoUrl: "https://day-ztrivia.vercel.app/",
     },
