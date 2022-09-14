@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import dayzTracker from "../assets/img/nutrify.png";
-import trivia from "../assets/img/pleasework.jpg"
 import dayZgamer from "../assets/img/Playerone.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import googleClone from "../assets/img/google-clone.png";
@@ -12,6 +11,7 @@ import ClientEport from "../assets/img/clientEport.png";
 import ClientEport1 from "../assets/img/clientEport1.png";
 import ClientEport2 from "../assets/img/clientEport2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import likewhy from "../assets/img/likewhy.png";
 import TrackVisibility from 'react-on-screen';
 
 export const  Projects = () => {
@@ -20,7 +20,7 @@ export const  Projects = () => {
     {
       title: "Perplexed",
       description: "Fullstack trivia game built with React, Node.js, TailwindCSS, and Firebase + Firestore backend services and database.",
-      imgUrl: trivia,
+      imgUrl: likewhy,
       githubUrl: "https://github.com/dayZgarden/dayZtrivia",
       demoUrl: "https://day-ztrivia.vercel.app/",
     },
