@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import dayZtrivia from "../assets/img/perplexed.png";
 import dayzTracker from "../assets/img/nutrify.png";
+import dayZtrivia from "../assets/img/perplexed.png";
 import dayZgamer from "../assets/img/Playerone.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import googleClone from "../assets/img/google-clone.png";
