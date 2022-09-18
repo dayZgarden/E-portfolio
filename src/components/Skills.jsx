@@ -60,7 +60,7 @@ export const Skills = () => {
                             </div>
                              <div className="item">
                                 <img src={SQL} alt="Image" />
-                                <h5>SQL</h5>
+                                <h5>postgreSQL</h5>
                             </div>
                             <div className="item">
                                 <img src={html} alt="Image" />

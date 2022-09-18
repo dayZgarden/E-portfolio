@@ -54,7 +54,7 @@ export const  Projects = () => {
     },
     {
       title: "Client E-Portfolio",
-      description: "Designed and Developed a responsive e-portfolio for a client using React, Node.js, and CSS3 [BEM] + HTML5 best practices.",
+      description: "Incorporated Three.js to create a 3D interactive portfolio. Developed with CSS3 + HTML5 best practises.",
       imgUrl: ClientEport,
       githubUrl: "https://github.com/dayZgarden/firstThreeJs",
       demoUrl: "https://first-three-js.vercel.app/",
