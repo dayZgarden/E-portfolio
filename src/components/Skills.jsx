@@ -18,6 +18,7 @@ import python from "../assets/img/python.png"
 import javascript from "../assets/img/javascript.png"
 import firebase from "../assets/img/firebase.png"
 import threejs from "../assets/img/threejs.png"
+import docker from "../assets/img/docker.png"
 import SQL from "../assets/img/SQL.png"
 import graphql from "../assets/img/graphql.png"
 
@@ -29,7 +30,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 5
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -49,7 +50,7 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         <p>I'm an ambitious software engineer proficient in desiging web applications with robust logic using the technologies listed below. These technologies consist of both frontend and backend.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel responsive={responsive} infinite={true} autoPlay={true} arrows={false} autoPlaySpeed={200} className="owl-carousel owl-theme skill-slider">
                              <div className="item">
                                 <img src={react} alt="Image" />
                                 <h5>React.js</h5>
@@ -58,9 +59,13 @@ export const Skills = () => {
                                 <img src={graphql} alt="Image" />
                                 <h5>GraphQL</h5>
                             </div>
-                             <div className="item">
-                                <img src={SQL} alt="Image" />
-                                <h5>postgreSQL</h5>
+                            <div className="item">
+                                <img src={typescript} alt="Image" />
+                                <h5>TypeScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={css} alt="Image" />
+                                <h5>CSS3</h5>
                             </div>
                             <div className="item">
                                 <img src={html} alt="Image" />
@@ -71,16 +76,16 @@ export const Skills = () => {
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={css} alt="Image" />
-                                <h5>CSS3</h5>
+                                <img src={docker} alt="Image" />
+                                <h5>Docker</h5>
                             </div>
                             <div className="item">
                                 <img src={firebase} alt="Image" />
                                 <h5>Firebase</h5>
                             </div>
-                            <div className="item">
-                                <img src={typescript} alt="Image" />
-                                <h5>TypeScript</h5>
+                             <div className="item">
+                                <img src={SQL} alt="Image" />
+                                <h5>postgreSQL</h5>
                             </div>
                             <div className="item">
                                 <img src={threejs} alt="Image" />

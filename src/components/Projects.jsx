@@ -8,6 +8,7 @@ import twitterClone from "../assets/img/twitter-clone.png";
 import huluClone from "../assets/img/hulu-clone.png";
 import Library from "../assets/img/Library.png";
 import ClientEport from "../assets/img/clientEport.png";
+import car from "../assets/img/car.png";
 import ClientEport1 from "../assets/img/clientEport1.png";
 import ClientEport2 from "../assets/img/clientEport2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -51,6 +52,13 @@ export const  Projects = () => {
       imgUrl: tictactoe,
       githubUrl: "https://github.com/dayZgarden/ticTacToe",
       demoUrl: "https://tictactoe-swart.vercel.app/",
+    },
+    {
+      title: "Self-Driving Car",
+      description: "HTML canvas manipulated with JavaScript creating a self-driving car utilizing a neural network, collisions, sensors, and local storage.",
+      imgUrl: car,
+      githubUrl: "https://github.com/dayZgarden/Self-Driving-Car",
+      demoUrl: "https://self-driving-car-zkah.vercel.app/",
     },
     {
       title: "Client E-Portfolio",
@@ -109,20 +117,20 @@ export const  Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Creative Work</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Client Portfolios</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Professional Clones</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.slice(0,5).map((project, index) => {
+                          projects.slice(0,6).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -136,7 +144,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="second">
                     <Row>
                         {
-                          projects.slice(5,8).map((project, index) => {
+                          projects.slice(6,9).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -150,7 +158,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
-                          projects.slice(8,11).map((project, index) => {
+                          projects.slice(9,12).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
