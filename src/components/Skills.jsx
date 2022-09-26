@@ -49,7 +49,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I'm an ambitious software engineer proficient in desiging web applications with robust logic using the technologies listed below. These technologies consist of both frontend and backend.</p>
+                        <p>I'm an ambitious software engineer proficient in designing web applications with robust logic using the technologies listed below. These technologies consist of both frontend and backend.</p>
                         <Carousel responsive={responsive} infinite={true} autoPlay={true} arrows={false} autoPlaySpeed={200} className="owl-carousel owl-theme skill-slider">
                              <div className="item">
                                 <img src={react} alt="Image" />
