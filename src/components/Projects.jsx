@@ -14,6 +14,9 @@ import ClientEport2 from "../assets/img/clientEport2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import likewhy from "../assets/img/likewhy.png";
 import TrackVisibility from 'react-on-screen';
+import pf from "../assets/img/pf.png";
+import eldernet from "../assets/img/eldernet.png";
+import freightify from "../assets/img/freightify.png";
 
 export const  Projects = () => {
 
@@ -45,6 +48,27 @@ export const  Projects = () => {
       imgUrl: Library,
       githubUrl: "https://github.com/dayZgarden/React-Bookstore",
       demoUrl: "https://react-bookstore-zeta.vercel.app/",
+    },
+    {
+      title: "Freightify",
+      description: "React application developed with TailwindCSS to create a responsive and interactive UI for a freight company.",
+      imgUrl: freightify,
+      githubUrl: "https://github.com/dayZgarden/Self-Driving-Car",
+      demoUrl: "https://github.com/dayZgarden/Freightify",
+    },
+    {
+      title: "Non-Profit Website",
+      description: "React Application developed with TailwindCSS to create a responsive and interactive UI for a non-profit organization.",
+      imgUrl: pf,
+      githubUrl: "https://github.com/dayZgarden/non-profit",
+      demoUrl: "https://non-profit.vercel.app/",
+    },
+    {
+      title: "ElderNet",
+      description: "React application developed with TailwindCSS to create a responsive and interactive UI for a client.",
+      imgUrl: eldernet,
+      githubUrl: "https://github.com/dayZgarden/Eldernet",
+      demoUrl: "https://eldernet.vercel.app/",
     },
     {
       title: "Tic-Tac-Toe",
@@ -130,7 +154,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.slice(0,6).map((project, index) => {
+                          projects.slice(0,9).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -144,7 +168,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="second">
                     <Row>
                         {
-                          projects.slice(6,9).map((project, index) => {
+                          projects.slice(9,12).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -158,7 +182,7 @@ export const  Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
-                          projects.slice(9,12).map((project, index) => {
+                          projects.slice(12,15).map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
