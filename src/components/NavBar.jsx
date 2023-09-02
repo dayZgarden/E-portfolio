@@ -5,7 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.png';
 import { HashLink } from 'react-router-hash-link';
-import resume from '../assets/img/Zyad Alkurdi Resume.pdf';
+import resume from '../assets/img/Zyad_Alkurdi_Resume.pdf';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
