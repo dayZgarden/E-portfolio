@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import dayzTracker from "../assets/img/Nutrify.jpg";
+import dayzTracker from "../assets/img/nutrify.png";
 import dayZgamer from "../assets/img/Playerone.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import googleClone from "../assets/img/google-clone.png";
