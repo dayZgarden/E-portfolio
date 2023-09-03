@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import dayzTracker from "../assets/img/nutrify.png";
+import dayzTracker from "../assets/img/Nutrify.jpg";
 import dayZgamer from "../assets/img/Playerone.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import googleClone from "../assets/img/google-clone.png";
@@ -50,6 +50,20 @@ export const  Projects = () => {
       demoUrl: "https://react-bookstore-zeta.vercel.app/",
     },
     {
+      title: "Tic-Tac-Toe",
+      description: "Tic-Tac-Toe game developed with Next.js, TypeScript, and TailwindCSS best practises using game logic and events to operate.",
+      imgUrl: tictactoe,
+      githubUrl: "https://github.com/dayZgarden/ticTacToe",
+      demoUrl: "https://tictactoe-swart.vercel.app/",
+    },
+    {
+      title: "Self-Driving Car",
+      description: "HTML canvas manipulated with JavaScript creating a self-driving car utilizing a neural network, collisions, sensors, and local storage.",
+      imgUrl: car,
+      githubUrl: "https://github.com/dayZgarden/Self-Driving-Car",
+      demoUrl: "https://self-driving-car-zkah.vercel.app/",
+    },
+    {
       title: "Freightify",
       description: "React application developed with TailwindCSS to create a responsive and interactive UI for a freight company.",
       imgUrl: freightify,
@@ -69,20 +83,6 @@ export const  Projects = () => {
       imgUrl: eldernet,
       githubUrl: "https://github.com/dayZgarden/Eldernet",
       demoUrl: "https://eldernet.vercel.app/",
-    },
-    {
-      title: "Tic-Tac-Toe",
-      description: "Tic-Tac-Toe game developed with Next.js, TypeScript, and TailwindCSS best practises using game logic and events to operate.",
-      imgUrl: tictactoe,
-      githubUrl: "https://github.com/dayZgarden/ticTacToe",
-      demoUrl: "https://tictactoe-swart.vercel.app/",
-    },
-    {
-      title: "Self-Driving Car",
-      description: "HTML canvas manipulated with JavaScript creating a self-driving car utilizing a neural network, collisions, sensors, and local storage.",
-      imgUrl: car,
-      githubUrl: "https://github.com/dayZgarden/Self-Driving-Car",
-      demoUrl: "https://self-driving-car-zkah.vercel.app/",
     },
     {
       title: "Client E-Portfolio",
